@@ -1,0 +1,30 @@
+{
+  "current_index": 0,
+  "providers": {
+    "gemini": {
+      "success": 333,
+      "failure": 45,
+      "total_latency": 2805.6789999999996,
+      "cooldown_until": "2026-09-06T09:28:26.030337",
+      "last_error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+      "last_used": "2026-09-06T09:27:56.021677"
+    },
+    "groq": {
+      "success": 218,
+      "failure": 85,
+      "total_latency": 768.7269999999997,
+      "cooldown_until": "2026-09-06T09:28:56.182915",
+      "last_error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m1rr60a3e7cv8jmzq9e2sc3a` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198868, Requested 2565. Please try again in 10m19.056s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+      "last_used": "2026-09-06T09:27:56.175062"
+    },
+    "openrouter": {
+      "success": 367,
+      "failure": 18,
+      "total_latency": 18354.166999999998,
+      "cooldown_until": null,
+      "last_error": null,
+      "last_used": "2026-09-06T09:28:21.760573"
+    }
+  },
+  "updated_at": "2026-09-14T22:06:02.406599"
+}
