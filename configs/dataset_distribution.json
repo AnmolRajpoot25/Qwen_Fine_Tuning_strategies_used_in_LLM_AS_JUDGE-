@@ -1,0 +1,155 @@
+{
+  "domains": {
+    "DSA": {
+      "count": 250,
+      "subcategories": [
+        "arrays",
+        "strings",
+        "linked_lists",
+        "stacks_queues",
+        "trees",
+        "binary_search",
+        "graphs",
+        "dynamic_programming",
+        "greedy",
+        "heaps",
+        "hashing",
+        "recursion_backtracking"
+      ]
+    },
+    "Competitive Programming": {
+      "count": 200,
+      "subcategories": [
+        "number_theory",
+        "graph_algorithms",
+        "dynamic_programming",
+        "greedy",
+        "bit_manipulation",
+        "prefix_sum",
+        "two_pointers",
+        "binary_search",
+        "combinatorics"
+      ]
+    },
+    "C++ / Python": {
+      "count": 120,
+      "subcategories": [
+        "language_semantics",
+        "memory_management",
+        "pointers_references",
+        "STL",
+        "OOP",
+        "concurrency",
+        "Python_internals",
+        "async_programming"
+      ]
+    },
+    "SQL / DBMS": {
+      "count": 120,
+      "subcategories": [
+        "joins",
+        "normalization",
+        "indexing",
+        "transactions",
+        "isolation_levels",
+        "query_optimization",
+        "window_functions",
+        "database_design"
+      ]
+    },
+    "OS / Systems": {
+      "count": 100,
+      "subcategories": [
+        "processes_threads",
+        "deadlocks",
+        "virtual_memory",
+        "scheduling",
+        "synchronization",
+        "race_conditions",
+        "memory_management"
+      ]
+    },
+    "Backend / System Design": {
+      "count": 180,
+      "subcategories": [
+        "REST_APIs",
+        "authentication",
+        "caching",
+        "distributed_systems",
+        "databases",
+        "message_queues",
+        "scalability",
+        "microservices",
+        "system_design"
+      ]
+    },
+    "AI / ML": {
+      "count": 150,
+      "subcategories": [
+        "supervised_learning",
+        "deep_learning",
+        "model_evaluation",
+        "data_leakage",
+        "feature_engineering",
+        "generalization",
+        "optimization",
+        "metrics"
+      ]
+    },
+    "LLM / RAG / Agents": {
+      "count": 180,
+      "subcategories": [
+        "RAG",
+        "prompt_engineering",
+        "hallucination",
+        "agent_design",
+        "tool_use",
+        "agent_security",
+        "prompt_injection",
+        "evaluation",
+        "retrieval"
+      ]
+    },
+    "Frontend": {
+      "count": 100,
+      "subcategories": [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "state_management",
+        "performance",
+        "browser_rendering",
+        "CSS",
+        "web_security"
+      ]
+    },
+    "DevOps / Cloud": {
+      "count": 100,
+      "subcategories": [
+        "Docker",
+        "Kubernetes",
+        "CI_CD",
+        "cloud_architecture",
+        "observability",
+        "deployment",
+        "container_security",
+        "networking"
+      ]
+    }
+  },
+  "difficulty_distribution": {
+    "easy": 0.15,
+    "medium": 0.3,
+    "hard": 0.35,
+    "expert": 0.2
+  },
+  "answer_relation_distribution": {
+    "clearly_correct_vs_incorrect": 0.25,
+    "correct_vs_partially_correct": 0.2,
+    "correct_vs_subtly_incorrect": 0.2,
+    "partially_correct_vs_incorrect": 0.1,
+    "both_correct_different_quality": 0.1,
+    "both_incorrect_different_severity": 0.1,
+    "near_tie": 0.05
+  }
+}

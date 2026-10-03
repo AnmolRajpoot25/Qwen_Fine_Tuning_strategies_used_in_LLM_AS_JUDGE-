@@ -1,0 +1,14 @@
+{
+  "logic_error": 0.15,
+  "edge_case": 0.12,
+  "complexity": 0.12,
+  "constraint_reasoning": 0.1,
+  "off_by_one": 0.08,
+  "state_transition": 0.07,
+  "data_leakage": 0.07,
+  "duplicate_handling": 0.07,
+  "concurrency_race": 0.05,
+  "api_semantics": 0.05,
+  "security_issue": 0.04,
+  "other": 0.08
+}

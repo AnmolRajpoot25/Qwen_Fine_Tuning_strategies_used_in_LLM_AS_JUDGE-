@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model files and outputs (consider using Git LFS for these)
+*.safetensors
+*.bin
+*.pth
+*.pt
+optimizer.pt
+scaler.pt
+scheduler.pt
+rng_state_*.pth
+trainer_state.json
+training_args.bin
+adapter_model.safetensors
+vocab.json
+tokenizer.json
+merges.txt
+
+# Output directories (large files)
+outputs/
+checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Credentials
+credentials.json
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp

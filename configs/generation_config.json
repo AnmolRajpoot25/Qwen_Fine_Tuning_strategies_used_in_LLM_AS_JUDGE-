@@ -1,0 +1,19 @@
+{
+    "providers": [
+        "gemini",
+        "groq",
+        "openrouter"
+    ],
+    "max_retries": 3,
+    "retry_delay_seconds": 5,
+    "examples_per_domain": 20,
+    "save_raw_responses": true,
+    "save_failed_requests": true,
+    "checkpoint_every": 10,
+    "difficulties": [
+        "easy",
+        "medium",
+        "hard",
+        "expert"
+    ]
+}
